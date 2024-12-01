@@ -105,4 +105,89 @@ SECOND LESSON
 9. Daxil edilen sozde cut yerde duran herfleri cap eden python kodu yazin.
 10. Daxil edilen sozun ilk 3 herfi ile son herfini birlesdirib, yeni bir deyisene menimsedib, ekrana cap edin.
 11. Uzunlugu tek sayda olan, daxil edilen sozun ortada duran herfini ekrana cap edin.
+12. Istifadecinin daxil etdiyi 3 ededin ededi ortasini tapan program
 """
+
+# 1.
+# a = int(input("Enter the first element: ")) # 32
+# b = int(input("Enter the second element: ")) # 24
+#
+# c = a + b # 3224, 56
+# print(c)
+
+# 2.
+# a = input("Enter word: ")
+# # print(a[:3])
+# print(a[3:])
+
+"""
+32, 24, 56
+
+(32+24+56)/3
+
+"""
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# c = a - b
+# d = a + b
+#
+# print(d - c)
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# c = int(input("Enter third number: "))
+# print((a + b + c)/3)
+
+# a = input("Enter the word: ")
+# print(len(a))
+
+
+# a = input("Enter the word: ")
+# print(a[len(a) - 1])  # a[4]
+
+# a = input("Enter the number: ")
+# print(len(a))
+
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# print(a + b)
+
+# a = 48 , 4 ve 8
+
+#7.
+# number = input("Enter the 2 digit number: ") # 45
+#
+# first_digit = int(number[0]) # 4
+# second_digit = int(number[1]) # 5
+#
+# print(first_digit + second_digit) # 45
+
+
+# a = input("Enter the word: ")
+# print(a[0:7:2])
+
+
+# a = input("Enter the word: ")
+# print(a[1:6:2])
+
+#10.
+# word = input("Enter the word: ") # Azerbaycan
+#
+# first_three = word[0:3] # Aze
+# last_three = word[len(word)-3:] # word[7:] = can
+#
+# result = first_three + last_three
+#
+# print(result)
+# first_three = word[0:3]
+# last_element = word[-1]
+#
+# result = first_three + last_element
+#
+# print(result)
+
+#11.
+# a = input("Enter the number: ")
+# print(a[len(a)//2])
