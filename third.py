@@ -15,3 +15,9 @@
 # my_string = ""
 #
 # print(bool(my_string))
+
+
+# my_string = "salam"
+# print(bool(my_string))
+
+
